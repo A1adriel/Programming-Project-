@@ -127,11 +127,3 @@ Health-check. Возвращает `{"status": "ok"}`.
 ```bash
 uv run pytest tests/ -v
 ```
-
-## Подключение фронтенда
-
-В файле `frontend_2/script.js` нужно изменить:
-```js
-const USE_MOCK = false;  // было true
-const API_BASE = 'http://localhost:8000';
-```
